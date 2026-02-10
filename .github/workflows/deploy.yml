@@ -24,7 +24,8 @@ jobs:
         run: npm run build
 
       - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+        # Use v2 to avoid dependency on deprecated upload-artifact v3
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./dist
 
