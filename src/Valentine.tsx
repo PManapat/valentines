@@ -81,7 +81,9 @@ export default function Valentine() {
             />
           </div>
           <h2>That was a tough choice =P</h2>
-          <p>I'm happy you said yes! Text me and I'll give you the details</p>
+          <p>I'm happy you said yes!</p>
+          <p>We'll have treats and dinner! I cant wait to see you!</p>
+          <p>XOXO</p>
         </div>
       )}
     </div>
