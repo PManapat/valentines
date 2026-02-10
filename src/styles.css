@@ -1,0 +1,22 @@
+:root{
+  --bg: #fff7f9;
+  --accent: #ff4d6d;
+  --muted: #333;
+}
+html,body,#root{height:100%;}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;color:var(--muted);background:var(--bg);display:flex;align-items:center;justify-content:center}
+.app-root{width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+.valentine-container{position:relative;width:520px;height:380px;border-radius:12px;background:linear-gradient(180deg,#fff,#ffeef3);box-shadow:0 8px 30px rgba(0,0,0,0.08);padding:28px;display:flex;flex-direction:column;align-items:center}
+.valentine-container h1{margin:0 0 12px 0;color:var(--accent)}
+.button-area{position:relative;width:100%;height:120px;display:flex;align-items:center;justify-content:center}
+button{font-size:18px;padding:12px 18px;border-radius:8px;border:none;cursor:pointer}
+.yes{background:var(--accent);color:white;box-shadow:0 6px 18px rgba(255,77,109,0.18)}
+.no{background:#fff;border:2px solid #ffd6df;color:var(--accent);width:84px}
+.message{margin-top:18px;background:rgba(255,77,109,0.03);padding:12px;border-radius:8px;width:100%}
+
+.intro{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%}
+.intro .yes{min-width:140px}
+.message.final{display:flex;flex-direction:column;align-items:center;gap:10px}
+.final-image{width:160px;height:160px;border-radius:12px;overflow:hidden;box-shadow:0 8px 20px rgba(255,77,109,0.12)}
+.message.final p{margin:0;font-weight:600}
+.final-image img{display:block;width:160px;height:160px;object-fit:cover}
